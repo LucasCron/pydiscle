@@ -1,7 +1,7 @@
 # PyDiscle
-Python implementation of Discle, the disc golf disc mold Wordle
+Python implementation of Discle, the disc golf disc mold Wordle game.
 
-The player essentially has a set number of guess to figure out which mold is the correct answer.
+The player essentially has a set number of guesses to figure out which mold is the correct answer.
 
 Each round the player guesses a mold, and if incorrect, the game will tell the player certain pieces of information.
 
