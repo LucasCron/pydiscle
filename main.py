@@ -1,6 +1,13 @@
 import csv
 import random
 
+Y = "y"
+DOWN = "v"
+UP = "^"
+GREY = "grey"
+GREEN = "green"
+MANUS = "manufacturers"
+
 NUM = "num"
 NAME = "name"
 MANU = "manufacturer"
@@ -10,86 +17,128 @@ TURN = "turn"
 FADE = "fade"
 TYPE = "type"
 
+info_columns = [MANU, SP, GL, TURN, FADE, TYPE]
+
+db_version = 4
+max_guesses = 6
+
+identifier_padding = 8
+num_padding = 6
+string_padding = 12
+
 
 def read_disc_db(file):
     with open(file) as csv_file:
-        columns = {}
-        lookup = {}
-        csv_reader = csv.reader(csv_file, delimiter=',')
+        column_numbers = {}
+        disc_lookup = {MANUS: []}
+
+        rows = csv.reader(csv_file, delimiter=',')
         line_count = 0
-        for row in csv_reader:
+        for row in rows:
+            # for the first row just extract the column order to a dict
             if line_count == 0:
-                row_count = 0
+                column_index = 0
                 for item in row:
-                    columns[item] = row_count
-                    row_count += 1
-                line_count += 1
+                    column_numbers[item] = column_index
+                    column_index += 1
             else:
-                lookup[row[columns[NAME]]] = {
-                    NUM: int(row[columns[NUM]]),
-                    NAME: row[columns[NAME]],
-                    MANU: row[columns[MANU]],
-                    SP: float(row[columns[SP]]),
-                    GL: float(row[columns[GL]]),
-                    TURN: float(row[columns[TURN]]),
-                    FADE: float(row[columns[FADE]]),
-                    TYPE: row[columns[TYPE]],
+                # creating manufacturer list for later creating exclusion list
+                if row[column_numbers[MANU]] not in disc_lookup[MANUS]:
+                    disc_lookup[MANUS].append(row[column_numbers[MANU]])
+
+                # initial setup for the lookup entry
+                name = row[column_numbers[NAME]]
+                disc_lookup[name] = {
+                    NUM: row[column_numbers[NUM]],
+                    NAME: name
                 }
-                line_count += 1
-        return lookup
+                # extracting the info columns into a dict with name as the key
+                for column in info_columns:
+                    disc_lookup[name][column] = row[column_numbers[column]]
+
+            line_count += 1
+        return disc_lookup
 
 
-def compare_num(actual, guess) -> str:
-    if actual == guess:
-        return "Green"
-    elif actual > guess:
-        return "^"
-    elif actual < guess:
-        return "V"
+def compare_num(actual, disc_guess) -> str:
+    # converting strings to numerics
+    num_actual = float(actual)
+    num_guess = float(disc_guess)
+    if num_actual == num_guess:
+        return GREEN
+    elif num_actual > num_guess:
+        return UP
+    elif num_actual < num_guess:
+        return DOWN
     else:
-        return "Grey?"
+        # should not happen
+        return GREY
 
 
-def compare_str(actual, guess) -> str:
-    if actual == guess:
-        return "Green"
+def compare_str(actual, disc_guess) -> str:
+    if actual == disc_guess:
+        return GREEN
     else:
-        return "Grey"
+        return GREY
 
 
-def pad(val: str, size=6):
+def pad(val: str, size=num_padding):
     return str(val).ljust(size, ' ')
 
 
-# Press the green button in the gutter to run the script.
+def print_stat_output(identifier, man, speed, glide, turn, fade, disc_type):
+    print(f'{pad(identifier, identifier_padding)} = {MANU}:{pad(man, string_padding)}'
+          f'{SP}:{pad(speed)}'
+          f'{GL}:{pad(glide)}'
+          f'{TURN}:{pad(turn)}'
+          f'{FADE}:{pad(fade)}'
+          f'{TYPE}:{disc_type}')
+
+
 if __name__ == '__main__':
-    db_version = 3
-    db = read_disc_db(f'discs-db-{db_version}.csv')
-    disc = random.choice(list(db))
+    lookup = read_disc_db(f'discs-db-{db_version}.csv')
+    disc = random.choice(list(lookup))
+
+    exclude_manufacturers = input("exclude manufacturers? type y to exclude: ")
+    exclude_list = []
+    if exclude_manufacturers == Y:
+        for manufacturer in lookup[MANUS]:
+            exclude = input(f"exclude {manufacturer}? type y to exclude: ")
+            if exclude == Y:
+                exclude_list.append(manufacturer)
+
+    while lookup[disc][MANU] in exclude_list:
+        disc = random.choice(list(lookup))
+
     correct = False
-    guesses = 0
-    while not correct and guesses < 5:
-        inp = input("tell me a disc name: ")
-        if db.get(inp) is None:
-            print("not a disc...")
+    guesses = 1
+    print("note: disc types are defined by speed: putter 1-3, mid 4-5, fairway 6-8, distance 9-14")
+    while not correct and guesses < max_guesses + 1:
+        inp = input(f'guess {guesses} -> ')
+        if lookup.get(inp) is None:
+            print("not a disc... guess again!")
         elif inp == disc:
-            print("you win!")
+            print(f'\nyou win! it took you {guesses} guesses')
             correct = True
         else:
             guesses += 1
-            print("wrong")
-            print(f'guess  = {MANU}:{pad(db[inp][MANU], 10)}'
-                  f'{SP}:{pad(db[inp][SP])}'
-                  f'{GL}:{pad(db[inp][GL])}'
-                  f'{TURN}:{pad(db[inp][TURN])}'
-                  f'{FADE}:{pad(db[inp][FADE])}'
-                  f'{TYPE}:{db[inp][TYPE]}')
-            print(f'actual = {MANU}:{pad(compare_str(db[disc][MANU], db[inp][MANU]), 10)}'
-                  f'{SP}:{pad(compare_num(db[disc][SP], db[inp][SP]))}'
-                  f'{GL}:{pad(compare_num(db[disc][GL], db[inp][GL]))}'
-                  f'{TURN}:{pad(compare_num(db[disc][TURN], db[inp][TURN]))}'
-                  f'{FADE}:{pad(compare_num(db[disc][FADE], db[inp][FADE]))}'
-                  f'{TYPE}:{compare_str(db[disc][TYPE], db[inp][TYPE])}')
+            print("wrong, guess again!")
 
-    if guesses >= 5:
-        print("you failed, it was the " + disc)
+            guess = lookup[inp]
+            print_stat_output("guess", guess[MANU], guess[SP], guess[GL], guess[TURN], guess[FADE], guess[TYPE])
+            print_stat_output("actual",
+                              compare_str(lookup[disc][MANU], lookup[inp][MANU]),
+                              compare_num(lookup[disc][SP], lookup[inp][SP]),
+                              compare_num(lookup[disc][GL], lookup[inp][GL]),
+                              compare_num(lookup[disc][TURN], lookup[inp][TURN]),
+                              compare_num(lookup[disc][FADE], lookup[inp][FADE]),
+                              compare_str(lookup[disc][TYPE], lookup[inp][TYPE]))
+
+    if guesses > max_guesses:
+        print("\nyou failed!")
+        print("it was the " + disc)
+
+    print_stat_output("stats",
+                      lookup[disc][MANU], lookup[disc][SP],
+                      lookup[disc][GL], lookup[disc][TURN],
+                      lookup[disc][FADE], lookup[disc][TYPE])
