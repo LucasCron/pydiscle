@@ -96,7 +96,7 @@ def print_stat_output(identifier, man, speed, glide, turn, fade, disc_type):
 
 
 if __name__ == '__main__':
-    lookup = read_disc_db(f'discs-db-{db_version}.csv')
+    lookup = read_disc_db(f'discLookups/discs-db-{db_version}.csv')
     disc = random.choice(list(lookup))
 
     exclude_manufacturers = input("exclude manufacturers? type y to exclude: ")
