@@ -1,0 +1,655 @@
+num,name,manufacturer,speed,glide,turn,fade,discraft rating,type
+1,baobab,agl,4,0,1,3,,mid
+2,beech,agl,5,2,0,3,,mid
+3,cedar,agl,11,5,0,3,,distance
+4,locust,agl,9,4,-1,3,,distance
+5,madone,agl,3,3,0,1,,putter
+6,magnolia,agl,5,5,0,2,,mid
+7,manzanita,agl,3,3,0,2,,putter
+8,ponderosa,agl,3,4,-2,0,,putter
+9,sycamore,agl,7,5,0,1,,fairway
+10,alias,axiom,4,4,-1,1,,mid
+11,clash,axiom,6.5,4,-1,2,,fairway
+12,crave,axiom,6.5,5,-1,1,,fairway
+13,defy,axiom,11,5,-1,3,,distance
+14,envy,axiom,3,3,0,2,,putter
+15,excite,axiom,14.5,5.5,-2,2,,distance
+16,fireball,axiom,9,3.5,0,3.5,,distance
+17,hex,axiom,5,5,-1,1,,mid
+18,insanity,axiom,9,5,-1,1,,distance
+19,inspire,axiom,6.5,5,-1.5,1,,fairway
+20,mayhem,axiom,13,5,-1.5,2,,distance
+21,panic,axiom,13,4,-0.5,3,,distance
+22,paradox,axiom,5,4,-4,0,,mid
+23,proxy,axiom,3,3,-1,0.5,,putter
+24,pyro,axiom,5,4,0,2.5,,mid
+25,tantrum,axiom,14,5,-1.5,3,,distance
+26,tenacity,axiom,13,5,-2.5,2,,distance
+27,theory,axiom,4,4,-1.5,1,,mid
+28,thrill,axiom,11,4,0,3.5,,distance
+29,vanish,axiom,11,5,-3,2,,distance
+30,virus,axiom,9,5,-3.5,1,,distance
+31,wrath,axiom,9,4.5,-0.5,2,,distance
+32,aftershock,dga,5,4,0,2,,mid
+33,banzai,dga,8,4,0,3,,fairway
+34,blowfly 1,dga,2,2,0,2,,putter
+35,blowfly 2,dga,2,2,0,2,,putter
+36,breaker,dga,3,3,0,3,,putter
+37,hellfire,dga,10,2,0,5,,distance
+38,hurricane,dga,12,5,-1,3,,distance
+39,hypercane,dga,13,4,0,4,,distance
+40,pipeline,dga,8,5,0,2,,fairway
+41,quake,dga,5,3,0,3,,mid
+42,reef,dga,2,2,-1,1,,putter
+43,rift,dga,5,4,-1,1.5,,mid
+44,rogue,dga,11,4,-1,1,,distance
+45,sail,dga,11,5,-4,1,,distance
+46,squall,dga,6,4,-1,1,,fairway
+47,steady,dga,2,3,0,2,,putter
+48,steady bl,dga,2,4,0,2,,putter
+49,tempest,dga,13,5,-3,2,,distance
+50,titanic,dga,2,2,0,2,,putter
+51,torrent,dga,14,5,-1,2,,distance
+52,tremor,dga,6,5,-4,1,,fairway
+53,undertow,dga,10,4,-1,1,,distance
+54,vortex,dga,7,6,-2,1,,fairway
+55,astronaut,discmania,12,6,-4,1,,distance
+56,cd,discmania,10,5,-1,2,,distance
+57,cd2,discmania,9,5,-1,2,,distance
+58,cd3,discmania,12,5,-1,3,,distance
+59,dd3,discmania,12,5,-1,3,,distance
+60,ddx,discmania,12,6,-1,2,,distance
+61,enigma,discmania,12,5,-1,2,,distance
+62,essence,discmania,8,6,-2,1,,fairway
+63,fd,discmania,7,6,0,1,,fairway
+64,fd2,discmania,7,4,0,2,,fairway
+65,fd3,discmania,9,4,0,3,,distance
+66,genius,discmania,7,5,-4,1,,fairway
+67,instinct,discmania,7,5,0,2,,fairway
+68,link,discmania,2,3,0,1,,putter
+69,logic,discmania,3,3,0,1,,putter
+70,maestro,discmania,4,3,0,2,,mid
+71,magician,discmania,6,4,0,2,,fairway
+72,majesty,discmania,13,5,-2,2,,distance
+73,md,discmania,4,5,0,0,,mid
+74,md1,discmania,5,6,0,0,,mid
+75,md3,discmania,5,5,0,1,,mid
+76,md4,discmania,5,4,0,3,,mid
+77,md5,discmania,5,3,0,4,,mid
+78,mentor,discmania,11,5,-2,2,,distance
+79,method,discmania,5,5,0,4,,mid
+80,mutant,discmania,5,3,0,4,,mid
+81,origin,discmania,5,5,-1,1,,mid
+82,p1,discmania,2,3,0,0,,putter
+83,p1x,discmania,2,3,0,0,,putter
+84,p2,discmania,2,3,0,1,,putter
+85,p3x,discmania,3,2,0,3,,putter
+86,pd,discmania,10,4,0,3,,distance
+87,pd2,discmania,12,4,0,4,,distance
+88,pd3,discmania,11,3,0,5,,distance
+89,rainmaker,discmania,2,3,0,0.5,,putter
+90,razor claw,discmania,4,2,0,4,,mid
+91,rockstar,discmania,8,5,-2,1,,fairway
+92,sensei,discmania,3,3,0,1,,putter
+93,shogun,discmania,2,4,0,2,,putter
+94,splice,discmania,9,3,0,4,,distance
+95,tactic,discmania,4,2,0,3,,mid
+96,td,discmania,10,5,-2,1,,distance
+97,td,discmania,10,5,-2,1,,distance
+98,tilt,discmania,9,1,1,6,,distance
+99,anax,discraft,10,6,0,3,1.9,distance
+100,apx,discraft,2,2,-1,1,0.0,putter
+101,archer,discraft,5,4,-4,1,-0.5,mid
+102,avenger,discraft,10,5,0,3,1.8,distance
+103,avenger ss,discraft,10,5,-3,1,0.5,distance
+104,buzzz,discraft,5,4,-1,1,0.5,mid
+105,buzzz os,discraft,5,4,0,3,1.7,mid
+106,buzzz ss,discraft,5,4,-2,1,0.0,mid
+107,captains raptor,discraft,9,3,1,4,2.4,distance
+108,challenger,discraft,2,3,0,2,1.0,putter
+109,challenger os,discraft,2,3,0,3,1.7,putter
+110,challenger ss,discraft,2,3,-1,2,0.7,putter
+111,comet,discraft,4,5,-2,1,0.0,mid
+112,crank,discraft,13,5,-2,2,1.3,distance
+113,crank ss,discraft,13,5,-3,2,0.7,distance
+114,drone,discraft,5,3,1,4,2.5,mid
+115,fierce,discraft,3,4,-2,0,0.0,putter
+116,flick,discraft,12,3,1,5,2.5,distance
+117,focus,discraft,2,2,-1,2,0.5,putter
+118,force,discraft,12,5,0,3,2.0,distance
+119,glide,discraft,6,5,-3,1,-0.5,fairway
+120,hades,discraft,12,6,-3,2,1.0,distance
+121,heat,discraft,9,6,-3,1,0.0,distance
+122,impact,discraft,6,6,-3,1,0.0,fairway
+123,luna,discraft,3,3,0,3,1.0,putter
+124,machete,discraft,11,4,0,4,2.2,distance
+125,magnet,discraft,2,3,-1,1,0.0,putter
+126,malta,discraft,5,4,1,3,1.9,mid
+127,mantis,discraft,8,4,-2,2,0.8,fairway
+128,meteor,discraft,5,5,-3,1,-0.5,mid
+129,nuke,discraft,13,5,-1,3,1.6,distance
+130,nuke os,discraft,13,4,0,4,2.2,distance
+131,nuke ss,discraft,13,5,-3,3,1.0,distance
+132,passion,discraft,8,5,-1,1,1.0,fairway
+133,predator,discraft,9,4,1,4,2.5,distance
+134,raptor,discraft,9,4,0,3,2.1,distance
+135,ringer,discraft,4,4,0,2,1.5,mid
+136,ringer gt,discraft,4,4,0,3,1.7,mid
+137,roach,discraft,2,4,0,1,0.0,putter
+138,scorch,discraft,11,6,-2,2,0.5,distance
+139,sol,discraft,4,5,-3,0,-0.5,mid
+140,stalker,discraft,7,5,-1,2,1.1,fairway
+141,sting,discraft,7,5,-2,1,0.0,fairway
+142,stratus,discraft,5,4,-4,1,-1.0,mid
+143,surge,discraft,11,5,-1,3,1.7,distance
+144,surge ss,discraft,11,5,-2,2,1.5,distance
+145,thrasher,discraft,12,5,-3,2,0.4,distance
+146,undertaker,discraft,9,5,-1,2,1.4,distance
+147,vulture,discraft,10,5,0,2,1.7,distance
+148,wasp,discraft,5,3,0,2,1.5,mid
+149,zeus,discraft,12,5,-1,3,1.9,distance
+150,zombee,discraft,6,5,-1,1,1.0,fairway
+151,zone,discraft,4,3,0,3,2.0,mid
+152,bounty,dynamic,4,5,-1.5,0.5,,mid
+153,breakout,dynamic,8,5,-1,1.5,,fairway
+154,captain,dynamic,3,5,-2,2,,putter
+155,convict,dynamic,9,4,-0.5,3,,distance
+156,criminal,dynamic,10,3,1,3,,distance
+157,defender,dynamic,13,5,3,,,distance
+158,deputy,dynamic,3,4,-1.5,0,,putter
+159,emac judge,dynamic,2,4,0,1,,putter
+160,emac truth,dynamic,5,5,0,2,,mid
+161,enforcer,dynamic,12,5,0.5,4,,distance
+162,escape,dynamic,9,5,-1,2,,distance
+163,evader,dynamic,7,4,0,2.5,,fairway
+164,evidence,dynamic,5,5,-1,0,,mid
+165,felon,dynamic,9,3,0,4,,distance
+166,freedom,dynamic,14,5,-3,3,,distance
+167,gavel,dynamic,3,5,-2,0.5,,putter
+168,getaway,dynamic,9,5,-0.5,3,,distance
+169,guard,dynamic,3,5,0,0.5,,putter
+170,judge,dynamic,2,4,0,1,,putter
+171,justice,dynamic,5,1,0.5,4,,mid
+172,justice,dynamic,5,1,0.5,4,,mid
+173,marshal,dynamic,3,4,0,1,,putter
+174,maverick,dynamic,7,4,-1.5,2,,fairway
+175,patrol,dynamic,5,5,-2,0,,mid
+176,proof,dynamic,5,6,-3,1,,mid
+177,raider,dynamic,13,5,-0.5,3,,distance
+178,renegade,dynamic,11,5,-1.5,2.5,,distance
+179,sergeant,dynamic,11,4,0,2.5,,distance
+180,sheriff,dynamic,13,5,-1,2,,distance
+181,slammer,dynamic,3,2,0,3,,putter
+182,suspect,dynamic,4,3,0,0,,mid
+183,thief,dynamic,8,5,-1.5,2,,fairway
+184,trespass,dynamic,12,5,-0.5,3,,distance
+185,truth,dynamic,5,5,-1,1,,mid
+186,vandal,dynamic,9,5,-1.5,2,,distance
+187,verdict,dynamic,5,4,0,3.5,,mid
+188,warden,dynamic,2,4,0,0.5,,putter
+189,warrant,dynamic,5,5,-2,0,,mid
+190,witness,dynamic,8,6,-3,1.0,,fairway
+191,binx,elevation,8,5,0,1,,fairway
+192,interceptor,elevation,5,3,0,3,,mid
+193,koi,elevation,3,4,-1,0,,putter
+194,mobius,ev-7,2,4,-1,0,,putter
+195,penrose,ev-7,2,4,0,2,,putter
+196,phi,ev-7,3,4,0,1,,putter
+197,apache,gateway,10,6,0,2,,distance
+198,apex,gateway,11.5,6,-1,1.5,,distance
+199,assassin,gateway,9,6,-1.5,1,,distance
+200,blade,gateway,9,5,0,3,,distance
+201,blaze,gateway,7,5,0,3,,fairway
+202,cheif os,gateway,3,3,0,1,,putter
+203,chief,gateway,3,3,0,0.5,,putter
+204,demon,gateway,6,4,0,4,,fairway
+205,devil hawk,gateway,3,3,0,4,,putter
+206,diablo,gateway,9,5,-0.5,2,,distance
+207,element,gateway,5,5,-1,1,,mid
+208,illusion,gateway,12,5,-0.5,2.5,,distance
+209,journey,gateway,11.5,6,-2,1,,distance
+210,magic,gateway,2,3,-1.5,0,,putter
+211,mystic,gateway,5,5,-3,0,,mid
+212,ninja,gateway,10,6,-1,2,,distance
+213,prophecy,gateway,5,5,0,2,,mid
+214,sabre,gateway,7,6,-1,1,,fairway
+215,samurai,gateway,12.5,5,-2,1,,distance
+216,shaman,gateway,3,3,-1,0,,putter
+217,slayer,gateway,12.5,5,-1,2,,distance
+218,spear,gateway,9,6,-2,1,,distance
+219,spirit,gateway,12,4,0,4,,distance
+220,voodoo,gateway,2,3,0,0,,putter
+221,warlock,gateway,2,3,0,1,,putter
+222,warrior,gateway,5,4,0,3,,mid
+223,wizard,gateway,2,3,0,2,,putter
+224,marksman,hyzerbomb,9,4,-1,2,,distance
+225,moab,hyzerbomb,6,4,1,5,,fairway
+226,mortar,hyzerbomb,5,4,0,3,,mid
+227,sabot,hyzerbomb,11,4,0,5,,distance
+228,tank,hyzerbomb,2,2,0,2,,putter
+229,veteran,hyzerbomb,7,4,0,1,,fairway
+230,alpaca,infinite,3,3,0,1,,putter
+231,anubis,infinite,5,5,0,0,,mid
+232,aztec,infinite,10,5,-1,2,,distance
+233,centurion,infinite,7,5,-1,1.5,,fairway
+234,chariot,infinite,5,5,0,1,,mid
+235,cohort,infinite,3.5,4,0,1,,putter
+236,dynasty,infinite,9,5,-1,2,,distance
+237,emperor,infinite,12,5,-1,2.5,,distance
+238,exodus,infinite,7,5,-0.5,2,,fairway
+239,inca,infinite,5,5,0,3,,mid
+240,kon tiki,infinite,4,5,-3,0,,mid
+241,maya,infinite,11,5,-3,1,,distance
+242,myth,infinite,2,3,0,2,,putter
+243,pharaoh,infinite,13,6,-1,2,,distance
+244,ra,infinite,5,4,0,2.5,,mid
+245,ruin,infinite,3,3,0,3,,putter
+246,scarab,infinite,2,4,0,1,,putter
+247,scepter,infinite,9,4,0,4,,distance
+248,slab,infinite,12,3,0,4,,distance
+249,sphinx,infinite,9,6,-3,1,,distance
+250,tomb,infinite,3,4,0,1,,putter
+251,aero,innova,3,6,0,0,,putter
+252,animal,innova,2,1,0,1,,putter
+253,ape,innova,13,5,0,4,,distance
+254,archangel,innova,8,6,-4,1,,fairway
+255,archon,innova,11,5,-2,2,,distance
+256,atlas,innova,5,4,0,1,,mid
+257,avatar,innova,5,4,0,2,,mid
+258,aviar,innova,2,3,0,1,,putter
+259,aviar driver,innova,2,3,0,2,,putter
+260,aviar-x,innova,2,3,0,2,,putter
+261,aviar3,innova,3,2,0,2,,putter
+262,aviarx3,innova,3,2,0,3,,putter
+263,banshee,innova,7,3,0,3,,fairway
+264,beast,innova,10,5,-2,2,,distance
+265,birdie,innova,1,2,0,0,,putter
+266,boss,innova,13,5,-1,3,,distance
+267,bullfrog,innova,3,1,0,1,,putter
+268,caiman,innova,5.5,2,0,4,,mid
+269,cheetah,innova,6,4,-2,2,,fairway
+270,classic aviar,innova,2,3,0,0,,putter
+271,cobra,innova,4,5,-2,2,,mid
+272,colossus,innova,14,5,-1,3,,distance
+273,colt,innova,3,4,-1,1,,putter
+274,corvette,innova,14,6,-1,2,,distance
+275,coyote,innova,4,5,0,1,,mid
+276,cro,innova,5,3,0,2,,mid
+277,daedalus,innova,13,6,-3,2,,distance
+278,dark rebel,innova,7,6,-1,1,,fairway
+279,dart,innova,3,4,0,0,,putter
+280,destroyer,innova,12,5,-1,3,,distance
+281,dominator,innova,13,5,-1,2,,distance
+282,dragon,innova,8,5,-2,2,,fairway
+283,eagle,innova,7,4,-1,3,,fairway
+284,firebird,innova,9,3,0,4,,distance
+285,firefly,innova,2,3,0,1,,innova
+286,firestorm,innova,14,4,-1,3,,distance
+287,fl,innova,9,3,0,2,,distance
+288,foxbat,innova,5,6,-1,0,,mid
+289,gator,innova,5,2,0,4,,mid
+290,gazelle,innova,6,4,0,2,,fairway
+291,groove,innova,12,6,-2,2,,distance
+292,hawkeye,innova,7,5,-1,1,,fairway
+293,hydra,innova,3,3,0,2,,putter
+294,invader,innova,3,2,0,1,,putter
+295,invictus,innova,10,4,0,3,,distance
+296,jk aviar,innova,2,3,0,2,,putter
+297,katana,innova,12,5,-3,3,,distance
+298,kc aviar,innova,2,3,0,2,,putter
+299,king cobra,innova,4,5,0,2,,mid
+300,kite,innova,5,6,-3,1,,mid
+301,krait,innova,11,5,-1,2,,distance
+302,leopard,innova,6,5,-2,1,,fairway
+303,leopard3,innova,7,5,-2,1,,fairway
+304,lion,innova,5,4,0,2,,mid
+305,mako,innova,4,5,0,0,,mid
+306,mako3,innova,5,5,0,0,,mid
+307,mamba,innova,11,6,-5,1,,distance
+308,manta,innova,5,5,-2,1,,mid
+309,max,innova,11,3,0,5,,distance
+310,mirage,innova,3,4,-3,0,,putter
+311,monarch,innova,10,5,-4,1,,distance
+312,monster,innova,10,3,0,5,,distance
+313,mystere,innova,11,6,-2,2,,distance
+314,nova,innova,2,3,0,0,,putter
+315,orc,innova,10,4,-1,3,,distance
+316,panther,innova,5,4,-2,1,,mid
+317,phantom sword,innova,10,4,0,3,,distance
+318,pig,innova,3,1,0,3,,putter
+319,polecat,innova,1,3,0,0,,putter
+320,rat,innova,4,2,0,2,,mid
+321,rhyno,innova,2,1,0,3,,putter
+322,rhynox,innova,2,1,0,4,,putter
+323,roadrunner,innova,9,5,-4,1,,distance
+324,roc,innova,4,4,0,3,,mid
+325,roc+,innova,4,5,0,2,,mid
+326,roc3,innova,5,4,0,3,,mid
+327,rocx3,innova,5,4,0,3.5,,mid
+328,savant,innova,9,5,-1,2,,distance
+329,shark,innova,4,4,0,2,,mid
+330,shark3,innova,5,4,0,2,,mid
+331,shryke,innova,13,6,-2,2,,distance
+332,sidewinder,innova,9,5,-3,1,,distance
+333,skeeter,innova,5,5,-1,1,,mid
+334,sonic,innova,1,2,-4,0,,putter
+335,spider,innova,5,3,0,1,,mid
+336,starfire,innova,10,4,0,3,,distance
+337,stingray,innova,4,5,-3,1,,mid
+338,stud,innova,3,3,0,2,,putter
+339,teebird,innova,7,5,0,2,,fairway
+340,teebird3,innova,8,4,0,2,,fairway
+341,teedevil,innova,12,5,-1,2,,distance
+342,teerex,innova,11,4,0,4,,distance
+343,tern,innova,12,6,-3,2,,distance
+344,thunderbird,innova,9,5,0,2,,distance
+345,tl,innova,7,5,-1,1,,fairway
+346,tl3,innova,8,4,-1,1,,fairway
+347,valkyrie,innova,9,4,-2,2,,distance
+348,vcobra,innova,5,5,-1,2,,mid
+349,viking,innova,9,4,-1,2,,distance
+350,viper,innova,6,4,1,5,,fairway
+351,vroc,innova,4,4,0,1,,mid
+352,vulcan,innova,13,5,-4,2,,distance
+353,wahoo,innova,12,6,-2,2,,distance
+354,wedge,innova,3.5,3,-3,1,,putter
+355,whale,innova,2,3,0,1,,putter
+356,whippet,innova,6,3,1,5,,fairway
+357,wolf,innova,4,3,-4,1,,mid
+358,wombat,innova,5,6,-1,0,,mid
+359,wombat3,innova,5,6,-1,0,,mid
+360,wraith,innova,11,5,-1,3,,distance
+361,xcaliber,innova,12,5,0,4,,distance
+362,xd,innova,3,4,-1,1,,putter
+363,yeti aviar,innova,2,3,0,1,,putter
+364,zephyr,innova,2,3,0,0,,putter
+365,berg,kastaplast,1,1,0,2,,putter
+366,falk,kastaplast,9,6,-2,1,,distance
+367,gote,kastaplast,4,5,0,1,,mid
+368,grym,kastaplast,13,5,-1,2,,distance
+369,grym x,kastaplast,12,5,0,3,,distance
+370,kaxe,kastaplast,6,4,0,3,,fairway
+371,kaxe z,kastaplast,6,5,0,2,,fairway
+372,lots,kastaplast,9,5,-1,2,,distance
+373,rask,kastaplast,14,3,0,4,,distance
+374,reko,kastaplast,3,3,0,1,,putter
+375,stal,kastaplast,9,4,0,3,,distance
+376,svea,kastaplast,5,6,-1,0,,mid
+377,anchor,latitude64,5,4,0,3,,mid
+378,ballista,latitude64,14,5,-1,3,,distance
+379,ballista pro,latitude64,14,4,0,3,,distance
+380,bolt,latitude64,13,6,-2,3,,distance
+381,caltrop,latitude64,2,2,0,2,,putter
+382,claymore,latitude64,5,5,-1,1,,mid
+383,compass,latitude64,5,5,0,1,,mid
+384,core,latitude64,6,5,-0.5,1,,fairway
+385,culverin,latitude64,9,5,-0.5,3,,distance
+386,cutlass,latitude64,13,5,0,3.5,,distance
+387,dagger,latitude64,2,5,0,1,,putter
+388,diamond,latitude64,8,6,-3,1,,fairway
+389,explorer,latitude64,7,5,0,2,,fairway
+390,falcion,latitude64,8,5,-1,2,,fairway
+391,flow,latitude64,11,6,-0.5,2,,distance
+392,fury,latitude64,9,6,-2,2,,distance
+393,fuse,latitude64,5,6,-1,0,,mid
+394,gauntlet,latitude64,2,4,0,1,,putter
+395,gladiator,latitude64,13,5,0,3.5,,distance
+396,halo,latitude64,13,5,-0.5,3,,distance
+397,havoc,latitude64,13,5,-1,3,,distance
+398,jade,latitude64,9,6,-2,1,,distance
+399,keystone,latitude64,2,5,-1,1,,putter
+400,knight,latitude64,14,4,-1.5,3,,distance
+401,macana,latitude64,2,5,0,1,,putter
+402,mace,latitude64,5,5,0,2,,mid
+403,maul,latitude64,7,7,-2,1,,fairway
+404,mercy,latitude64,2,4,0,1,,putter
+405,musket,latitude64,10,5,-0.5,2,,distance
+406,pearl,latitude64,4,6,-4,0,,mid
+407,pioneer,latitude64,9,3,0,4,,distance
+408,pure,latitude64,3,3,-1,1,,putter
+409,recoil,latitude64,12,4,0,3,,distance
+410,river,latitude64,7,7,-1,1,,fairway
+411,river pro,latitude64,6,5,0,2,,fairway
+412,ruby,latitude64,3,5,-3,1,,putter
+413,saint,latitude64,9,7,-1,2,,distance
+414,saint pro,latitude64,8,5,-0.5,2,,fairway
+415,sapphire,latitude64,10,6,-2,1.5,,distance
+416,scythe,latitude64,12,3,0,4,,distance
+417,sinus,latitude64,2,2,2,2,,putter
+418,spark,latitude64,7,4,-0.5,3,,fairway
+419,spike,latitude64,4,3,-1,1,,mid
+420,stiletto,latitude64,13,3,0.5,5,,distance
+421,striker,latitude64,8,5,0,2,,fairway
+422,xxx,latitude64,7,3,0,4,,fairway
+423,aftermath,legacy,13,5,-2,3,,distance
+424,bandit,legacy,9,5,-2,1,,distance
+425,cannon,legacy,14,5,-3,3,,distance
+426,clozer,legacy,2,3,0,2,,putter
+427,clutch,legacy,2,3,0,1,,putter
+428,enemy,legacy,9,3,0,4,,distance
+429,fighter,legacy,10,3,0,5,,distance
+430,gauge,legacy,5,5,0,1,,mid
+431,ghost,legacy,4,5,0,3,,mid
+432,hunter,legacy,2,3.5,0,0,,putter
+433,mongoose,legacy,9,5,-3,1,,distance
+434,nemesis,legacy,10,6,-4,2,,distance
+435,outlaw,legacy,12,5,-1,3,,distance
+436,patriot,legacy,7,5,-2,1,,fairway
+437,phenom,legacy,8,5,-1,2,,fairway
+438,prowler,legacy,2,2,0,2,,putter
+439,pursuit,legacy,5,3,0,3,,mid
+440,rampage,legacy,14,5,-1,4,,distance
+441,recluse,legacy,5,3,0,4,,mid
+442,recon,legacy,13,5,0,3,,distance
+443,roval,legacy,7,5,0,2,,fairway
+444,valor,legacy,5,5,0,2,,mid
+445,vengeance,legacy,10,6,0,2,,distance
+446,aquarius,millenium,8,5,-3,2,,fairway
+447,aries,millenium,11,6,-4,2,,distance
+448,astra,millenium,11,5,-1,2,,distance
+449,astra x,millenium,11,5,0,4,,distance
+450,aurora ms,millenium,4,5,0,0,,mid
+451,draco,millenium,9,3,0,4,,distance
+452,exp-x,millenium,7,3,1,4,,fairway
+453,falcon,millenium,13,5,-2,2,,distance
+454,jls,millenium,7,5,-1,1,,fairway
+455,omega,millenium,2,3,0,0,,putter
+456,omega 4,millenium,2,3,0,1,,putter
+457,omega big bead,millenium,2,3,0,1,,putter
+458,omega driver,millenium,3,2,0,2,,putter
+459,orion lf,millenium,9,5,-1,2,,distance
+460,orion ls,millenium,9,4,-1,1,,distance
+461,polaris ls,millenium,6,4,-1,1,,fairway
+462,quasar,millenium,13,5,0,3,,distance
+463,scorpius,millenium,13,4,-1,3,,distance
+464,sentinel mf,millenium,5,4,0,4,,mid
+465,taurus,millenium,4,4,0,4,,mid
+466,alpha,mint,8,4,0,2,,fairway
+467,bobcat,mint,5,4,0,2.5,,mid
+468,bullet,mint,2,4,0,1,,putter
+469,freetail,mint,10,5,-4,1,,distance
+470,goat,mint,12,4,-1,3,,distance
+471,jackalope,mint,8,5,-2,1,,fairway
+472,longhord,mint,11,4,-1,2.5,,distance
+473,mustang,mint,5,4,0,2,,mid
+474,profit,mint,3,3,0,1,,putter
+475,amp,mvp,8,5,-1.5,1,,fairway
+476,anode,mvp,2.5,3,0,0.5,,putter
+477,atom,mvp,3,3,0,1,,putter
+478,axis,mvp,5,5,-1,1,,mid
+479,catalyst,mvp,13,5.5,-2,2,,distance
+480,deflector,mvp,5,3.5,0,4,,mid
+481,dimension,mvp,14.5,5,0,3,,distance
+482,energy,mvp,13,4,0,4,,distance
+483,entropy,mvp,4,3,0,3,,mid
+484,impulse,mvp,9,5,-3,1,,distance
+485,inertia,mvp,9,5,-2,2,,distance
+486,ion,mvp,2.5,3,0,1.5,,putter
+487,limit,mvp,14.5,3.5,0,4,,distance
+488,matrix,mvp,5,4,-1,2,,mid
+489,motion,mvp,9,3.5,0,4,,distance
+490,nitro,mvp,13,4,-0.5,3,,distance
+491,nomad,mvp,2,4,0,1,,putter
+492,octane,mvp,13,5,-1,2,,distance
+493,orbital,mvp,11,5,-4.5,1,,distance
+494,particle,mvp,3,3,0,2.5,,putter
+495,phase,mvp,11,3.5,0,4,,distance
+496,photon,mvp,11,5,-1.5,2.5,,distance
+497,reactor,mvp,5,5,-0.5,1.5,,mid
+498,relativity,mvp,14.5,5.5,-3,1.5,,distance
+499,relay,mvp,6,5,-2,1,,fairway
+500,resistor,mvp,6.5,4,0,3.5,,fairway
+501,servo,mvp,6.5,5,-1,2,,fairway
+502,shock,mvp,8,5,0,2.5,,fairway
+503,signal,mvp,6,5,-3,1,,fairway
+504,spin,mvp,2.5,4,-2,0,,putter
+505,switch,mvp,6.5,5,-1.5,1,,fairway
+506,tangent,mvp,4,4,-0.5,0.5,,mid
+507,teleport,mvp,14.5,5,-1,2.5,,distance
+508,tensor,mvp,4,4,0,2.5,,mid
+509,terra,mvp,8,5,0,3,,fairway
+510,tesla,mvp,9,5,-1,2,,distance
+511,vector,mvp,5,4,0,2,,mid
+512,vertex,mvp,4,4,-2,0.5,,mid
+513,volt,mvp,8,5,-0.5,2,,fairway
+514,wave,mvp,11,5,-2,2,,distance
+515,a1,prodigy,3,3,0,3,,putter
+516,a2,prodigy,4,4,0,3,,mid
+517,a3,prodigy,4,4,0,3,,mid
+518,a4,prodigy,4,4,-1,2,,mid
+519,d model os,prodigy,13,5,0,4,,distance
+520,d model s,prodigy,13,6,0,2,,distance
+521,d model us,prodigy,13,6,-3,1,,distance
+522,d1,prodigy,12,5,0,3,,distance
+523,d1 max,prodigy,12,5,0,3,,distance
+524,d2,prodigy,12,6,-1,3,,distance
+525,d2 max,prodigy,12,6,-1,3,,distance
+526,d2 pro,prodigy,12,5,-1,3,,distance
+527,d3,prodigy,12,6,-2,2,,distance
+528,d3 max,prodigy,12,6,-3,1.5,,distance
+529,d4,prodigy,12,6,-3,2,,distance
+530,f model os,prodigy,10,5,2,4,,distance
+531,f model s,prodigy,10,5,1,3,,distance
+532,f model us,prodigy,10,5,-2,1,,distance
+533,f2,prodigy,7,5,-1,3,,fairway
+534,f3,prodigy,7,5,-1,2,,fairway
+535,f5,prodigy,7,5,-2,1,,fairway
+536,falcor,prodigy,13,6,-1,2.5,,distance
+537,fx2,prodigy,9,4,-1,3,,distance
+538,h1 v2,prodigy,11,4,0,3,,distance
+539,h3 v2,prodigy,11,5,-1,2,,distance
+540,h4 v2,prodigy,12,5,-2,1.5,,distance
+541,h5,prodigy,9,5,-3,1,,distance
+542,m model os,prodigy,6,4,-1,3,,fairway
+543,m model s,prodigy,6,4,0,3,,fairway
+544,m model us,prodigy,4,5,-1,1,,mid
+545,m1,prodigy,5,4,0,3,,mid
+546,m2,prodigy,5,4,0,2,,mid
+547,m3,prodigy,5,4,-1,2,,mid
+548,m4,prodigy,5,5,-1,1,,mid
+549,mx3,prodigy,5,4,0,2,,mid
+550,p model s,prodigy,3,5,0,2,,putter
+551,p model us,prodigy,3,5,-1,1,,putter
+552,pa1,prodigy,3,3,0,2,,putter
+553,pa2,prodigy,3,3,0,1,,putter
+554,pa3,prodigy,3,4,0,1,,putter
+555,pa4,prodigy,3,3,-1,1,,putter
+556,px3,prodigy,3,4,0,2.5,,putter
+557,x2,prodigy,13,4,0,4,,distance
+558,x3,prodigy,12,5,-1,2,,distance
+559,x4,prodigy,13,5,-2.5,2,,distance
+560,x5,prodigy,13,5,-4,1,,distance
+561,huia,rpm,7,5,0,2,,fairway
+562,kahu,rpm,13,5,-1,2,,distance
+563,kea,rpm,4,3,0,3,,mid
+564,kiwi,rpm,10,4,0,4,,distance
+565,kotare,rpm,12,5,0,3,,distance
+566,kotuku,rpm,5,5,0,2,,mid
+567,pekapeka,rpm,9,6,-3,1,,distance
+568,piwakawaka,rpm,6,6,-3,0,,fairway
+569,rippa,rpm,3,4,0,0,,putter
+570,ruru,rpm,2,3,0,1,,putter
+571,temoko,rpm,3,4,0,0,,putter
+572,tui,rpm,3,4,-1,0.5,,putter
+573,drift,streamline,7,5,-2,1,,fairway
+574,flare,streamline,9,4,0,3.5,,distance
+575,lift,streamline,9,5,-2,1.5,,distance
+576,pilot,streamline,2,5,0,1,,putter
+577,runway,streamline,5,4,0,3.5,,mid
+578,stabilizer,streamline,3,3.5,0,3,,putter
+579,trace,streamline,11,5,-1,2,,distance
+580,animus,thoughtspace,11,5,0,2,,distance
+581,muse,thoughtspace,3,3,0,2,,putter
+582,praxis,thoughtspace,3,3,0,1,,putter
+583,synapse,thoughtspace,12,5,-1.5,3,,distance
+584,votum,thoughtspace,8.5,5,0,2,,fairway
+585,axe,viking,4,3,0,1,,mid
+586,barbarian,viking,7,5,0,2,,fairway
+587,berserker,viking,10,5,-3,2,,distance
+588,cosmos,viking,7,5,0,1,,fairway
+589,fenrir,viking,10,4,0,3,,distance
+590,knife,viking,2,3,0,2,,putter
+591,loki,viking,4,2,0,4,,mid
+592,nordic warrior,viking,4,4,0,2,,mid
+593,odin,viking,12,5,-1,3,,distance
+594,ragnarok,viking,11,5,-1,2,,distance
+595,rune,viking,2,4,0,0,,putter
+596,thunder god thor,viking,14,5,0,2,,distance
+597,valhalla,viking,12,5,0,2,,distance
+598,adder,westwide,13,5,0,4,,distance
+599,ahti,westwide,9,3,0,4,,distance
+600,anvil,westwide,4,2,0,4,,mid
+601,bard,westwide,5,4,0,3,,mid
+602,boatman,westwide,11,5,0,2,,distance
+603,catapult,westwide,14,5,0,3,,distance
+604,crown,westwide,3,4,0,1,,putter
+605,destiny,westwide,14,6,-2,3,,distance
+606,fortress,westwide,10,4,0,3,,distance
+607,gatekeeper,westwide,4,5,0,2,,mid
+608,giant,westwide,13,5,1,4,,distance
+609,harp,westwide,4,3,0,3,,mid
+610,hatchet,westwide,9,6,-2,2,,distance
+611,king,westwide,14,5,-1,4,,distance
+612,longbowman,westwide,9,4,0,3,,distance
+613,maiden,westwide,3,4,0,1,,putter
+614,northman,westwide,10,5,-1,2,,distance
+615,pine,westwide,5,4,0,2,,mid
+616,queen,westwide,14,5,-3,2,,distance
+617,sampo,westwide,10,5,0,2,,distance
+618,seer,westwide,7,5,-2,1,,fairway
+619,shield,westwide,3,3,0,1,,putter
+620,sling,westwide,5,5,0,1,,mid
+621,sorcerer,westwide,13,6,0,2,,distance
+622,stag,westwide,8,6,0,3,,fairway
+623,swan 1 reborn,westwide,3,3,-1,0,,putter
+624,swan 2,westwide,3,3,-1,0,,putter
+625,sword,westwide,12,5,0,2,,distance
+626,tursas,westwide,5,5,-3,1,,mid
+627,underworld,westwide,7,6,-3,1,,fairway
+628,war horse,westwide,13,4,0,4,,distance
+629,warship,westwide,6,5,0,1,,fairway
+630,world,westwide,14,4,1,4,,distance
+631,claws,yikun,1,3,0,0.5,,putter
+632,cross-bow,yikun,4,1.5,0.5,4,,mid
+633,da' e,yikun,13,5,0,3,,distance
+634,fu,yikun,7,5,0,2,,fairway
+635,gou,yikun,8,5,-3.5,1,,fairway
+636,gui,yikun,2,3,0,2,,putter
+637,hammer,yikun,2,2.5,0,3,,putter
+638,hu,yikun,9,5,-2,2,,distance
+639,jiao,yikun,6,5,-2,1.5,,fairway
+640,jun,yikun,11,5,-1,2,,distance
+641,kui,yikun,5,5,0,2.5,,mid
+642,luan,yikun,14,5,-1,3,,distance
+643,meteor-hammer,yikun,2,3,0,0,,putter
+644,qi,yikun,13,6,-2,2,,distance
+645,shu,yikun,4,5,-2,1,,mid
+646,tomahawk,yikun,5,6,0,0,,mid
+647,twin swords,yikun,12,5,0,2,,distance
+648,view,yikun,7,6,-3.5,1,,fairway
+649,wei,yikun,10,5,-2.5,2,,distance
+650,wings,yikun,3,3,0,2,,putter
+651,xing,yikun,2,4,0,1,,putter
+652,yan,yikun,3,6,0,0,,putter
+653,yao,yikun,4,4,0,2,,mid
+654,zhu,yikun,7,5,0,2,,fairway
