@@ -112,20 +112,24 @@ if __name__ == '__main__':
     lookup = read_disc_db(file_name)
     disc = random.choice(list(lookup))
     include_list = []
-
+    print('Welcome to Discle! It\'s like Wordle but with disc golf disc molds.\n'
+          'You have a set number of guesses, typically 6, to figure out which mold is the correct answer.\n'
+          'With each guess, you will learn if the flight numbers and manufacturer are correct, and if not then\n'
+          'in the case of the flight numbers it will tell you if the correct mold\'s numbers are higher or lower.\n'
+          'Have fun!')
     # short circuit if only want to do Discraft game, since that is my favorite :)
     discraft_only = False
-    discraft_only_input = input('discraft only? type y to guess from only discraft: ')
+    discraft_only_input = input('Do you want to play Discraft only? Type y to guess from only Discraft: ')
     if discraft_only_input == Y:
         discraft_only = True
         include_list.append('discraft')
 
     # create include list of manufacturers, can still end up with a Discraft only game
     if not discraft_only:
-        include_manufacturers = input('specific manufacturers? type y to choose: ')
+        include_manufacturers = input('Do you want to include specific manufacturers? Type y to choose: ')
         if include_manufacturers == Y:
             for manufacturer in lookup[MANUS]:
-                exclude = input(f'include {manufacturer}? type y to include: ')
+                exclude = input(f'Include {manufacturer}? Type y to include: ')
                 if exclude == Y:
                     include_list.append(manufacturer)
         if len(include_list) == 1 and 'discraft' in include_list:
@@ -140,22 +144,22 @@ if __name__ == '__main__':
 
     correct = False
     guesses = 1
-    print('note: disc types are defined by speed: putter 1-3, mid 4-5, fairway 6-8, distance 9-14')
+    print('Note: disc types are defined by speed: putter 1-3, mid 4-5, fairway 6-8, distance 9-14')
     while not correct and guesses < max_guesses + 1:
-        inp = input(f'guess {guesses} -> ')
+        inp = input(f'Guess {guesses} -> ')
         if lookup.get(inp) is None:
-            print('not a disc... guess again!')
+            print('Not a disc... guess again!')
         elif inp == disc:
-            print(f'\nyou win! it took you {guesses} guesses')
+            print(f'\nYou win! It took you {guesses} guesses')
             correct = True
         else:
             guesses += 1
-            print('wrong, guess again!')
+            print('Wrong, guess again!')
 
             guess = lookup[inp]
             guess_drating = get_d_rating(discraft_only, guess)
 
-            print_stat_output('guess',
+            print_stat_output('Guess',
                               guess[MANU],
                               guess[SP],
                               guess[GL],
@@ -163,7 +167,7 @@ if __name__ == '__main__':
                               guess[FADE],
                               guess[TYPE],
                               guess_drating)
-            print_stat_output('actual',
+            print_stat_output('Actual',
                               compare_str(actual[MANU], guess[MANU]),
                               compare_num(actual[SP], guess[SP]),
                               compare_num(actual[GL], guess[GL]),
@@ -173,10 +177,10 @@ if __name__ == '__main__':
                               compare_num(actual_drating, guess_drating))
 
     if guesses > max_guesses:
-        print('\nyou failed!')
-        print('it was the ' + disc)
+        print('\nYou failed!')
+        print('It was the ' + disc)
 
-    print_stat_output('stats',
+    print_stat_output('Stats',
                       actual[MANU], actual[SP],
                       actual[GL], actual[TURN],
                       actual[FADE], actual[TYPE],
